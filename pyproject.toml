@@ -1,0 +1,7 @@
+[project]
+name = "llm-knowledge-base"
+version = "0.1.0"
+description = "LLM related Knowledge Base where I document stuff"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
