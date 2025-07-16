@@ -6,9 +6,9 @@
 ---
 
 ### 🧠 1. Context Window & Long-Context Handling  
-- **Qwen3** supports up to **128 K tokens** in its larger variants (e.g., `Qwen3-72B`), making it suitable for long multi-document reasoning, codebases, or contextual RAG ([Alibaba Cloud](https://www.alibabacloud.com/blog/qwen3-foundation-models_601310?utm_source=chatgpt.com)).  
+- **Qwen3** supports up to **128 K tokens** in its larger variants (e.g., `Qwen3-72B`), making it suitable for long multi-document reasoning, codebases, or contextual RAG ([Alibaba Cloud](https://www.alibabacloud.com/blog/qwen3-foundation-models_601310)).  
 - The **base Qwen3 architecture** uses grouped-query attention and efficient positional encodings for better long-context behavior.  
-- It scored top positions in benchmarks like **LongBench**, where long input coherence is essential ([Github - OpenCompass](https://github.com/open-compass/opencompass?utm_source=chatgpt.com)).
+- It scored top positions in benchmarks like **LongBench**, where long input coherence is essential ([Github - OpenCompass](https://github.com/open-compass/opencompass)).
 
 ➡️ **Conclusion:** Qwen3 handles large contexts competitively, even rivalling models like GPT‑4o and Claude 3 Sonnet in structured input retention.
 
@@ -17,7 +17,7 @@
 ### 🔧 2. Tools & Chain-of-Thought (CoT) / Agent Capabilities  
 - Qwen3 introduces a **“thinking mode”**, which activates an internal Chain-of-Thought reasoning path. This is toggled using tags like `<|think|>` or automatically triggered by complex prompts.  
 - It performs well on multi-step tasks (e.g., GSM8K, MathQA, MATH) and reasoning-heavy datasets such as BBH and ARC, often outperforming Mistral and Mixtral in 7B and 14B class sizes.  
-- Real-world users leverage **Qwen3 in tool-using agents**, including structured RAG workflows and command execution ([freeCodeCamp tutorial](https://www.freecodecamp.org/news/build-a-local-ai/?utm_source=chatgpt.com)).
+- Real-world users leverage **Qwen3 in tool-using agents**, including structured RAG workflows and command execution ([freeCodeCamp tutorial](https://www.freecodecamp.org/news/build-a-local-ai/)).
 
 ➡️ **Conclusion:** With built-in CoT switching and strong tool compatibility, Qwen3 is well-suited for structured agentic reasoning.
 
